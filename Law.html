@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>صفحة القانون</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>مرحبًا بك في عالم القانون</h1>
+        <p>اكتشف حقوقك والتشريعات بسهولة</p>
+    </header>
+
+    <section class="content">
+        <h2>اعرف حقك</h2>
+        <p>نقدم لك معلومات قانونية بأسلوب مبسط لمساعدتك في فهم حقوقك والتشريعات المختلفة.</p>
+        <button onclick="showMessage()">المزيد من المعلومات</button>
+        <p id="info-text" class="hidden">القانون يحمي حقوق الأفراد ويحدد واجباتهم، وهو ركيزة أساسية لتحقيق العدالة.</p>
+    </section>
+
+    <section class="faq">
+        <h2>الأسئلة الشائعة</h2>
+        <div class="question" onclick="toggleAnswer(this)">
+            <h3>ما هي الحقوق القانونية الأساسية؟</h3>
+            <p class="answer">الحقوق القانونية تشمل الحق في المساواة، حرية التعبير، وحق الدفاع عن النفس.</p>
+        </div>
+        <div class="question" onclick="toggleAnswer(this)">
+            <h3>كيف أطلب استشارة قانونية؟</h3>
+            <p class="answer">يمكنك استشارة محامٍ معتمد أو زيارة الجهات المختصة لتقديم المشورة القانونية.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>جميع الحقوق محفوظة &copy; 2025</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
