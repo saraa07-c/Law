@@ -1,0 +1,164 @@
+<meta name='viewport' content='width=device-width, initial-scale=1'/><!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مبادرة سند الحق</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- رأس الموقع -->
+    <header>
+        <img src="logo.png" alt="شعار مبادرة سند الحق">
+        <h1>مبادرة سند الحق</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">عن المبادرة</a></li>
+                <li><a href="#goals">الأهداف</a></li>
+                <li><a href="#achievements">الإنجازات</a></li>
+                <li><a href="#news">الأخبار</a></li>
+                <li><a href="#contact">تواصل معنا</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- قسم التعريف بالمبادرة -->
+    <section id="about">
+        <h2>عن المبادرة</h2>
+        <p>مبادرة "سند الحق" تهدف إلى نشر الوعي القانوني وتقديم الدعم الحقوقي للأفراد والمجتمع.</p>
+    </section>
+
+    <!-- قسم الأهداف -->
+    <section id="goals">
+        <h2>أهداف المبادرة</h2>
+        <ul>
+            <li>توعية المجتمع بالحقوق والواجبات القانونية.</li>
+            <li>تقديم استشارات قانونية مجانية.</li>
+            <li>تمكين الأفراد من الدفاع عن حقوقهم بطرق قانونية.</li>
+        </ul>
+    </section>
+
+    <!-- قسم الإنجازات -->
+    <section id="achievements">
+        <h2>إنجازات المبادرة</h2>
+        <p>تمكنا من توعية أكثر من 10,000 فرد حول حقوقهم القانونية، وعقدنا العديد من الندوات التوعوية.</p>
+    </section>
+
+    <!-- قسم الأخبار -->
+    <section id="news">
+        <h2>آخر الأخبار</h2>
+        <p>تابع أحدث المستجدات والفعاليات الخاصة بمبادرة سند الحق.</p>
+    </section>
+
+    <!-- قسم التواصل -->
+    <section id="contact">
+        <h2>تواصل معنا</h2>
+        <form>
+            <input type="text" placeholder="الاسم الكامل" required>
+            <input type="email" placeholder="البريد الإلكتروني" required>
+            <textarea placeholder="رسالتك" required></textarea>
+            <button type="submit">إرسال</button>
+        </form>
+    </section>
+
+    <!-- تذييل الموقع -->
+    <footer>
+        <p>جميع الحقوق محفوظة &copy; 2025 مبادرة سند الحق</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html><style>/* الخطوط والألوان */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #F8F5E4; /* لون أوف وايت */
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* رأس الموقع */
+header {
+    background-color: #556B2F; /* أخضر زيتي */
+    color: white;
+    padding: 20px;
+}
+
+header img {
+    width: 80px;
+    height: auto;
+}
+
+header h1 {
+    margin: 10px 0;
+    font-size: 28px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* الأقسام */
+section {
+    background: white;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+}
+
+h2 {
+    color: #8B4513; /* برتقالي هادئ */
+}
+
+/* الأزرار */
+button {
+    background: #8B4513; /* برتقالي هادئ */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #A0522D; /* برتقالي غامق */
+}
+
+/* نموذج التواصل */
+form input, form textarea {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #556B2F;
+}
+
+/* تذييل الموقع */
+footer {
+    background: #333;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}</style><script>document.addEventListener("DOMContentLoaded", function() {
+    console.log("الموقع جاهز للعمل!");
+});</script>
